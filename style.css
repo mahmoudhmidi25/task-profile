@@ -1,0 +1,238 @@
+:root{
+    --main-font:"Poppins", sans-serif;
+    --secondary:#C5C5C5;
+    --orange:#D5491D,#FF8660;
+    --blue:#5BADFF,#1373D1;
+    --blue-gradient: linear-gradient(var(--blue));
+    --orange-gradient:linear-gradient(var(--orange));
+    --background:#161513;
+    --background-second:#222222;
+    --primary-gradient:#FF8660 ,#8000FF;
+    --color-liner:linear-gradient(var(--primary-gradient));
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+   
+}
+body{
+    background: var(--background);
+}
+.nava{
+    background-color: var(--background-second);
+   display: flex;
+   justify-content: space-around;
+   height: 40px;
+   padding: 30px 20px;
+   align-items: center;
+   font-size: 12px;
+}
+.logo{
+    padding: 0 20px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+}
+ 
+ 
+.avatar{
+    padding: 10px;
+    background: var(--color-liner);
+    border-radius: 50%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(1,700px);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+    text-align: center;
+}
+.title-dis{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+span{
+    background:var(--color-liner) ;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+h1{
+    font-size: 55px;
+}
+.title-dis p{
+    color: var(--secondary);
+    letter-spacing: 1.6px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+.btns{
+    margin-bottom: 20px;
+}
+.btn-get,.btn-download{
+    padding: 16px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+.btn-get a{
+    color: #000;
+}
+.btn-download{
+    background-color: var(--background);
+    border: 2px solid #fff;
+}
+h5{ 
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: var(--secondary);
+    margin: 20px 0;
+    text-align: center;
+}
+.icons ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icons ul li{
+    padding: 22px;
+    
+}
+.titel-projects{
+    text-transform: uppercase;
+    font-size: 20px;
+    background: var(--orange-gradient);
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 200px;
+    border-radius:12px ;
+    overflow: hidden;
+    margin-left: 12px;
+    background-color: var(--background-second);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    padding:  8px;
+}
+h6{
+    font-size: 8px;
+    text-align: start;
+    text-transform: uppercase;
+    color: var(--secondary);
+}
+h3{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+.exprence{
+    overflow: hidden;
+
+}
+.ex-title{
+    margin: 20px 0;
+    font-size:35px;
+    text-transform: uppercase;
+    background:var(--blue-gradient) ;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.exp-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.icon-title{
+    display: flex;
+   align-items: center;
+    gap: 10px;
+}
+.exprence-des{
+    gap: 40px;
+    margin-top: 50px;
+}
+.exp-description{
+    padding: 20px;
+    color: var(--secondary);
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: start;
+    opacity: 0.6;
+    
+}
+small{
+    color: var(--secondary);
+    opacity: 0.6;
+}
+
+
+footer{
+    background: var(--background-second);
+    /* height: 200px; */
+padding: 10px 50px;
+justify-content: center;
+}
+footer h3{
+    font-size: 22px;
+    padding: 30px 0;
+}
+footer p{
+        color: var(--secondary);
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: start;
+    opacity: 0.6;
+    padding: 20px 0;
+}
+.contact-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.contact-email p{
+    color:#fff;
+    opacity: 1;
+}
+footer ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+    
+}
+/* footer ul li{
+    padding: 20px;
+    background: var(--primary-gradient);
+    border-radius: 50%;
+} */
